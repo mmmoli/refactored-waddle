@@ -82,6 +82,10 @@
     "initial_value": "tools",
     "options": [
       {
+        "value": "web",
+        "label": "web"
+      },
+      {
         "value": "shared-ui",
         "label": "shared-ui"
       },
