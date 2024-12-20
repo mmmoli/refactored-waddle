@@ -1,5 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from '@repo/ui/avatar'
-import { formatterDolar } from '@repo/shared'
+import { formatterDolar } from '@repo/shared-utils'
 
 export function RecentSales() {
 	const recentSales = [

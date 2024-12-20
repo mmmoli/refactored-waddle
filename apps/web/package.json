@@ -20,7 +20,7 @@
     "@radix-ui/react-icons": "^1.3.2",
     "@react-router/node": "^7.0.2",
     "@react-router/serve": "^7.0.2",
-    "@repo/shared": "workspace:*",
+    "@repo/shared-utils": "workspace:*",
     "@repo/ui": "workspace:*",
     "@unovis/react": "^1.5.0",
     "@unovis/ts": "^1.5.0",
