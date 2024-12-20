@@ -1,26 +1,33 @@
 {
-	"name": "remix-turborepo-boilerplate",
-	"private": true,
-	"scripts": {
-		"build": "turbo build",
-		"dev": "turbo dev",
-		"lint": "turbo lint",
-		"format": "turbo format",
-		"prepare": "husky"
-	},
-	"devDependencies": {
-		"@repo/biome-config": "workspace:*",
-		"@repo/typescript-config": "workspace:*",
-		"husky": "^9.1.7",
-		"lint-staged": "^15.2.10",
-		"turbo": "^2.3.3"
-	},
-	"packageManager": "bun@1.1.38",
-	"engines": {
-		"node": ">=20"
-	},
-	"workspaces": ["apps/*", "packages/*"],
-	"lint-staged": {
-		"*.{js,ts,tsx}": ["bun run lint", "bun run format"]
-	}
+  "name": "remix-turborepo-boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "turbo format",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@repo/biome-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.10",
+    "turbo": "^2.3.3"
+  },
+  "packageManager": "bun@1.1.38",
+  "engines": {
+    "node": ">=20"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "bun run lint",
+      "bun run format"
+    ]
+  }
 }
